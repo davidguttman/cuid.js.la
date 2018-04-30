@@ -1,0 +1,21 @@
+{
+  "name": "get-cuid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live",
+    "build": "browserify index.js > public/index.js"
+  },
+  "keywords": [],
+  "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "browserify": "^16.2.0",
+    "budo": "^11.2.0"
+  },
+  "dependencies": {
+    "cuid": "^2.1.1",
+    "hyperscript": "^2.0.2"
+  }
+}
